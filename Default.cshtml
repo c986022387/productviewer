@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title = "主页";
+}
+
+@section featured {
+<section class="featured">
+    <div class="content-wrapper">
+        <hgroup class="title">
+            @*<h1>@Page.Title.</h1>*@
+            <h2>我们一直专注于为您提供更多更好的全球热销产品。</h2>
+        </hgroup>
+        <p>
+            我们致力于改善您的生活品质，为您带来更好的购物体验，让您足不出户即可购买到全球热销产品。同时，我们为您提供最新的购物咨询服务，为您推送最新的热销产品信息。
+        </p>
+    </div>
+</section>
+}
+
+<h3>以下是我们最新产品系列：</h3>
+
+<ol class="round">
+    <li class="one">
+        <h5>户外</h5>
+        户外产品信息
+        <a href="~/Product">更多…</a>
+    </li>
+
+    <li class="two">
+        <h5>航模</h5>
+        航模产品信息
+        <a href="~/Product">更多…</a>
+    </li>
+
+    <li class="three">
+        <h5>代步工具</h5>
+        代步工具产品信息
+        <a href="~/Product">更多…</a>
+    </li>
+</ol>
